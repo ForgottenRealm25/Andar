@@ -899,6 +899,7 @@ GameObject:
   - component: {fileID: 1425159175}
   - component: {fileID: 1425159174}
   - component: {fileID: 1425159179}
+  - component: {fileID: 1425159180}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -1086,6 +1087,19 @@ CapsuleCollider2D:
   m_Offset: {x: -0.13055263, y: -1.2444899}
   m_Size: {x: 1.7599951, y: 0.3785637}
   m_Direction: 1
+--- !u!114 &1425159180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425159173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 699899ce0ae088649ae4536a6899f7f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Attack
+  comboDelay: 1
 --- !u!1 &1537505133
 GameObject:
   m_ObjectHideFlags: 0

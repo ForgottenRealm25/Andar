@@ -3,7 +3,7 @@ using UnityEngine;
 public class Movimentação : MonoBehaviour
 {
     public float xVelocity = 5f;
-    public float jumpForce = 7f;
+    public float jumpForce = 12f;
     private Rigidbody2D rb;
     private float moveInput;
     private Animator animator;
@@ -35,7 +35,7 @@ public class Movimentação : MonoBehaviour
 
         animator.SetBool("IsGrounded", isGrounded);
 
-        if(Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if(Input.GetKeyDown(KeyCode.W) && isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             isGrounded = false;
