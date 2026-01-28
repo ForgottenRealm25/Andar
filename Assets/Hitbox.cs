@@ -20,7 +20,7 @@ public class Hitbox : MonoBehaviour
     {
         if (hasHit) return;
 
-        if (other.CompareTag("Enemy"))
+        if (other.CompareTag("Enemy") || other.CompareTag("Player"))
         {
             hasHit = true;
             

@@ -2,18 +2,24 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-   public int maxHealth = 1000;
-   public int currentHealth;
+   public float maxHealth = 500;
+   public float currentHealth;
+
+   public HealthBarUI healthBar;
 
    private void Start()
     {
         currentHealth = maxHealth;
+        healthBar.SetHealth(currentHealth, maxHealth);
     }
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
         currentHealth -= damage;
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
 
-        Debug.Log(gameObject.name + " tomou " + damage + " de dano. Vida: " + currentHealth);
+        healthBar.SetHealth(currentHealth, maxHealth);
+
+        Debug.Log("a vida do " + gameObject.name + " é " + currentHealth + " (cerca de " + currentHealth + " de dano)");
 
         if (currentHealth <= 0)
         {
