@@ -23,7 +23,12 @@ public class Hitbox : MonoBehaviour
         if (other.CompareTag("Enemy"))
         {
             hasHit = true;
-            Debug.Log("Acertou Mizeravi");
+            
+            Health health = other.GetComponent<Health>();
+            if (health != null)
+            {
+                health.TakeDamage(damage);
+            }
         }
     }
 
