@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 59d41fb5aa65f034caf8951d1d52e262
+guid: 1d934f830ffea594ab98eac11565e12e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7362622342915278927
-    second: 12484355-rochas-da-montanha-do-deserto-de-pixels-de-8-bits-paisagem-do-jogo-vetor_0
+      213: -2340229657125732213
+    second: "CEN\xC1RIO_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 12484355-rochas-da-montanha-do-deserto-de-pixels-de-8-bits-paisagem-do-jogo-vetor_0
+      name: "CEN\xC1RIO_0"
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1416
-        height: 980
+        width: 300
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b73e2becf5b2d990800000000000000
-      internalID: -7362622342915278927
+      spriteID: b80cf22a685d58fd0800000000000000
+      internalID: -2340229657125732213
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      12484355-rochas-da-montanha-do-deserto-de-pixels-de-8-bits-paisagem-do-jogo-vetor_0: -7362622342915278927
+      "CEN\xC1RIO_0": -2340229657125732213
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
