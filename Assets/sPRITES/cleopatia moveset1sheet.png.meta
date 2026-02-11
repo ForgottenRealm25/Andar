@@ -1,0 +1,854 @@
+fileFormatVersion: 2
+guid: df91bfa0b0aa9994b9c1e3883c18aeb8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3776960763242836883
+    second: cleopatia moveset1sheet_0
+  - first:
+      213: -8786210375076342222
+    second: cleopatia moveset1sheet_1
+  - first:
+      213: -9020761269552731332
+    second: cleopatia moveset1sheet_2
+  - first:
+      213: -5240474280003059918
+    second: cleopatia moveset1sheet_3
+  - first:
+      213: -8597598738925864155
+    second: cleopatia moveset1sheet_4
+  - first:
+      213: -2366652943723229567
+    second: cleopatia moveset1sheet_5
+  - first:
+      213: 1173762471739598807
+    second: cleopatia moveset1sheet_6
+  - first:
+      213: 4975680931054781094
+    second: cleopatia moveset1sheet_7
+  - first:
+      213: -7455317224413127906
+    second: cleopatia moveset1sheet_8
+  - first:
+      213: -4642734721364904718
+    second: cleopatia moveset1sheet_9
+  - first:
+      213: 7442134643213163802
+    second: cleopatia moveset1sheet_10
+  - first:
+      213: 6831074102641737098
+    second: cleopatia moveset1sheet_11
+  - first:
+      213: 6407856576717941872
+    second: cleopatia moveset1sheet_12
+  - first:
+      213: -5383895348654345367
+    second: cleopatia moveset1sheet_13
+  - first:
+      213: 7223358477642245042
+    second: cleopatia moveset1sheet_14
+  - first:
+      213: 58166820722176381
+    second: cleopatia moveset1sheet_15
+  - first:
+      213: 4247864528387587093
+    second: cleopatia moveset1sheet_16
+  - first:
+      213: -6044877430841292139
+    second: cleopatia moveset1sheet_17
+  - first:
+      213: -2053881062765219019
+    second: cleopatia moveset1sheet_18
+  - first:
+      213: 2793066297512649621
+    second: cleopatia moveset1sheet_19
+  - first:
+      213: -282448655245529440
+    second: cleopatia moveset1sheet_20
+  - first:
+      213: -4886289120259129925
+    second: cleopatia moveset1sheet_21
+  - first:
+      213: -5230590183326232123
+    second: cleopatia moveset1sheet_22
+  - first:
+      213: 648972311725601773
+    second: cleopatia moveset1sheet_23
+  - first:
+      213: -5160486861479709971
+    second: cleopatia moveset1sheet_24
+  - first:
+      213: 8856406289836910843
+    second: cleopatia moveset1sheet_25
+  - first:
+      213: 8994161195568955726
+    second: cleopatia moveset1sheet_26
+  - first:
+      213: 7712002403904413930
+    second: cleopatia moveset1sheet_27
+  - first:
+      213: 4011564923937941985
+    second: cleopatia moveset1sheet_28
+  - first:
+      213: -5551523888132434773
+    second: cleopatia moveset1sheet_29
+  - first:
+      213: -4272183900510319684
+    second: cleopatia moveset1sheet_30
+  - first:
+      213: 7119036468493011386
+    second: cleopatia moveset1sheet_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 0
+        width: 37
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3937daf8dc57a6430800000000000000
+      internalID: 3776960763242836883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 39
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23619b7173c111680800000000000000
+      internalID: -8786210375076342222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_2
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 0
+        width: 37
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b25bc5b61dfc280800000000000000
+      internalID: -9020761269552731332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_3
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 47
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fb8d558681647b0800000000000000
+      internalID: -5240474280003059918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_4
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 0
+        width: 49
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b3afcbf713fa880800000000000000
+      internalID: -8597598738925864155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_5
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 0
+        width: 48
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e8ebecfa5f72fd0800000000000000
+      internalID: -2366652943723229567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_6
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 0
+        width: 47
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d729bacfba0a4010800000000000000
+      internalID: 1173762471739598807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_7
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 0
+        width: 50
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2843bc17b2d0540800000000000000
+      internalID: 4975680931054781094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 0
+        width: 47
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b110ffb74698890800000000000000
+      internalID: -7455317224413127906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 0
+        width: 42
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f43ca28e51b19fb0800000000000000
+      internalID: -4642734721364904718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 0
+        width: 44
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d59532706c74760800000000000000
+      internalID: 7442134643213163802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 0
+        width: 85
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8db45a24b9dcce50800000000000000
+      internalID: 6831074102641737098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 87
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c6ce23b974de850800000000000000
+      internalID: 6407856576717941872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 79
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963749b94bf8845b0800000000000000
+      internalID: -5383895348654345367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 0
+        width: 61
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b32c21b3468e3460800000000000000
+      internalID: 7223358477642245042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 0
+        width: 59
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71fbde4a66aec000800000000000000
+      internalID: 58166820722176381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 0
+        width: 69
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c368c484273fa30800000000000000
+      internalID: 4247864528387587093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 0
+        width: 64
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59acde7f0084c1ca0800000000000000
+      internalID: -6044877430841292139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2330
+        y: 0
+        width: 68
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5333afa2e062f73e0800000000000000
+      internalID: -2053881062765219019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 0
+        width: 56
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5936b51dff6f2c620800000000000000
+      internalID: 2793066297512649621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 0
+        width: 35
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aeadccc17a841cf0800000000000000
+      internalID: -282448655245529440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 0
+        width: 78
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd391d0fe9603cb0800000000000000
+      internalID: -4886289120259129925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 0
+        width: 108
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3f77d01ec910900800000000000000
+      internalID: 648972311725601773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_25
+      rect:
+        serializedVersion: 2
+        x: 2968
+        y: 0
+        width: 66
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8a34ce89648ea70800000000000000
+      internalID: 8856406289836910843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_26
+      rect:
+        serializedVersion: 2
+        x: 3097
+        y: 0
+        width: 67
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e418d7a44fda1dc70800000000000000
+      internalID: 8994161195568955726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_27
+      rect:
+        serializedVersion: 2
+        x: 3225
+        y: 0
+        width: 67
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae06eaf8359860b60800000000000000
+      internalID: 7712002403904413930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleopatia moveset1sheet_28
+      rect:
+        serializedVersion: 2
+        x: 3353
+        y: 0
+        width: 68
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9ecbc4b01fba730800000000000000
+      internalID: 4011564923937941985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fd408c91ea708b74cbd526fa63e3ceb6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      cleopatia moveset1sheet_0: 3776960763242836883
+      cleopatia moveset1sheet_1: -8786210375076342222
+      cleopatia moveset1sheet_10: 7442134643213163802
+      cleopatia moveset1sheet_11: 6831074102641737098
+      cleopatia moveset1sheet_12: 6407856576717941872
+      cleopatia moveset1sheet_13: -5383895348654345367
+      cleopatia moveset1sheet_14: 7223358477642245042
+      cleopatia moveset1sheet_15: 58166820722176381
+      cleopatia moveset1sheet_16: 4247864528387587093
+      cleopatia moveset1sheet_17: -6044877430841292139
+      cleopatia moveset1sheet_18: -2053881062765219019
+      cleopatia moveset1sheet_19: 2793066297512649621
+      cleopatia moveset1sheet_2: -9020761269552731332
+      cleopatia moveset1sheet_20: -282448655245529440
+      cleopatia moveset1sheet_21: -4886289120259129925
+      cleopatia moveset1sheet_22: -5230590183326232123
+      cleopatia moveset1sheet_23: 648972311725601773
+      cleopatia moveset1sheet_24: -5160486861479709971
+      cleopatia moveset1sheet_25: 8856406289836910843
+      cleopatia moveset1sheet_26: 8994161195568955726
+      cleopatia moveset1sheet_27: 7712002403904413930
+      cleopatia moveset1sheet_28: 4011564923937941985
+      cleopatia moveset1sheet_29: -5551523888132434773
+      cleopatia moveset1sheet_3: -5240474280003059918
+      cleopatia moveset1sheet_30: -4272183900510319684
+      cleopatia moveset1sheet_31: 7119036468493011386
+      cleopatia moveset1sheet_4: -8597598738925864155
+      cleopatia moveset1sheet_5: -2366652943723229567
+      cleopatia moveset1sheet_6: 1173762471739598807
+      cleopatia moveset1sheet_7: 4975680931054781094
+      cleopatia moveset1sheet_8: -7455317224413127906
+      cleopatia moveset1sheet_9: -4642734721364904718
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
