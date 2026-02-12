@@ -82,12 +82,10 @@ public class Attack : MonoBehaviour
 
     public void EnableHitbox()
     {
-        Hitbox.ResetHit();
-        Hitbox.gameObject.SetActive(true);
-        Hitbox.ReactivateCollider();
+        Hitbox.EnableHit();
     }
     public void DisableHitbox()
     {
-        Hitbox.gameObject.SetActive(false);
+        Hitbox.DisableHit();
     }
 }

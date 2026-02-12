@@ -382,13 +382,13 @@ GameObject:
   - component: {fileID: 433856477}
   - component: {fileID: 433856476}
   - component: {fileID: 433856475}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &433856475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -457,7 +457,7 @@ Transform:
   m_GameObject: {fileID: 433856474}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -528.13043, y: -227.66808, z: -2}
+  m_LocalPosition: {x: 1.3, y: 0.7, z: -2}
   m_LocalScale: {x: 2.0551171, y: 2.15625, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -488,7 +488,7 @@ Transform:
   m_GameObject: {fileID: 455708872}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -530.03046, y: -229.31807, z: -1}
+  m_LocalPosition: {x: 0, y: -1.44, z: -1}
   m_LocalScale: {x: 10, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1257,6 +1257,7 @@ GameObject:
   - component: {fileID: 1061093771}
   - component: {fileID: 1061093773}
   - component: {fileID: 1061093772}
+  - component: {fileID: 1061093774}
   m_Layer: 0
   m_Name: Visual
   m_TagString: Untagged
@@ -1289,7 +1290,7 @@ Animator:
   m_GameObject: {fileID: 1061093770}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cad4c2f857cf7b349bd46c7b4d2dad26, type: 2}
+  m_Controller: {fileID: 9100000, guid: 269f7ec05a695a449a5673d7396d9dde, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1350,7 +1351,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -5501897220575747292, guid: 866ba14cccb64da46a37266e5909279d, type: 3}
+  m_Sprite: {fileID: 3776960763242836883, guid: df91bfa0b0aa9994b9c1e3883c18aeb8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1360,6 +1361,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1061093774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061093770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 699899ce0ae088649ae4536a6899f7f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Attack
+  comboDelay: 1
+  Hitbox: {fileID: 433856475}
 --- !u!1 &1109278512
 GameObject:
   m_ObjectHideFlags: 0
@@ -1550,10 +1565,9 @@ GameObject:
   - component: {fileID: 1151785767}
   - component: {fileID: 1151785766}
   - component: {fileID: 1151785765}
-  - component: {fileID: 1151785764}
   - component: {fileID: 1151785763}
   - component: {fileID: 1151785768}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Players
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1593,20 +1607,6 @@ MonoBehaviour:
   maxHealth: 500
   currentHealth: 0
   healthBar: {fileID: 1380431345}
---- !u!114 &1151785764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1151785761}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 699899ce0ae088649ae4536a6899f7f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Attack
-  comboDelay: 1
-  Hitbox: {fileID: 433856475}
 --- !u!114 &1151785765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2009,7 +2009,7 @@ GameObject:
   - component: {fileID: 1363052057}
   - component: {fileID: 1363052060}
   - component: {fileID: 1363052059}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dummy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -2100,7 +2100,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1363052056}
-  m_BodyType: 2
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -2118,7 +2118,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 3
 --- !u!1 &1380431343
 GameObject:
   m_ObjectHideFlags: 0

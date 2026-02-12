@@ -6,21 +6,29 @@ public class Hitbox : MonoBehaviour
     public int damage = 10;
     private bool hasHit;
     
-    public void ResetHit()
+
+     private void Awake()
     {
-        hasHit = false;
+        col = GetComponent<BoxCollider2D>();
+        col.enabled = false;
     }
-    private void OnEnable()
+     public void EnableHit()
     {
         hasHit = false;
+        col.enabled = true;
+    }
+    public void DisableHit()
+    {
+       col.enabled =false;
     }
 
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if(!col.enabled) return;
         if (hasHit) return;
 
-        if (other.CompareTag("Enemy") || other.CompareTag("Player"))
+        if (other.CompareTag("Enemy"))
         {
             hasHit = true;
             
@@ -32,15 +40,7 @@ public class Hitbox : MonoBehaviour
         }
     }
 
-    private void Awake()
-    {
-        col = GetComponent<BoxCollider2D>();
-    }
-    public void ReactivateCollider()
-    {
-        col.enabled = false;
-        col.enabled = true;
-    }
+   
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
