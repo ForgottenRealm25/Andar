@@ -1,13 +1,14 @@
 using UnityEngine;
 
-public class Movimentacao : MonoBehaviour
+public class MovimentacaoWASD : MonoBehaviour
 {
-    public Transform opponent;
     public float xVelocity = 5f;
     public float jumpForce = 12f;
+    public Transform opponent;
+
     private Rigidbody2D rb;
-    private float moveInput;
     private Animator animator;
+    private float moveInput;
 
     private bool isGrounded;
 
@@ -23,13 +24,13 @@ public class Movimentacao : MonoBehaviour
 
     void Update()
     {
-        // Movimento apenas com setas
+        // Movimento exclusivo WASD
         moveInput = 0f;
 
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.A))
             moveInput = -1f;
 
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.D))
             moveInput = 1f;
 
         animator.SetFloat("xVelocity", Mathf.Abs(moveInput));
@@ -43,15 +44,15 @@ public class Movimentacao : MonoBehaviour
 
         animator.SetBool("IsGrounded", isGrounded);
 
-        // Pulo com seta para cima
-        if (Input.GetKeyDown(KeyCode.UpArrow) && isGrounded)
+        // Pulo com W
+        if (Input.GetKeyDown(KeyCode.W) && isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             isGrounded = false;
         }
 
-        // Ação com Numpad1
-        if (Input.GetKeyDown(KeyCode.Keypad1))
+        // Ação com F
+        if (Input.GetKeyDown(KeyCode.F))
         {
             animator.SetTrigger("IsAttacking");
         }
@@ -62,6 +63,7 @@ public class Movimentacao : MonoBehaviour
         rb.linearVelocity = new Vector2(moveInput * xVelocity, rb.linearVelocity.y);
         AutoFlip();
     }
+
     void AutoFlip()
     {
         if (opponent == null) return;
@@ -71,6 +73,4 @@ public class Movimentacao : MonoBehaviour
         else
         transform.localScale = new Vector3(-1, 1, 1);
     }
-
-    
 }

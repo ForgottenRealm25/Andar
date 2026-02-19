@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Hitbox : MonoBehaviour
+public class HitboxPl2 : MonoBehaviour
 {
     BoxCollider2D col;
     public int damage = 10;
@@ -25,11 +25,10 @@ public class Hitbox : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Acertou algo!");
         if(!col.enabled) return;
         if (hasHit) return;
 
-        if (other.CompareTag("Player2"))
+        if (other.CompareTag("Player"))
         {
             hasHit = true;
             
