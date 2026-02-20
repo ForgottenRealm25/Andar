@@ -82,7 +82,8 @@ public class Attack : MonoBehaviour
 
     public void EnableHitbox()
     {
-        Hitbox.EnableHit();
+        bool isFinal = attackIndex == 3;
+        Hitbox.EnableHit(isFinal, transform);
     }
     public void DisableHitbox()
     {

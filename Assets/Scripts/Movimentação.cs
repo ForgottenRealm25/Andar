@@ -8,9 +8,8 @@ public class Movimentacao : MonoBehaviour
     private Rigidbody2D rb;
     private float moveInput;
     private Animator animator;
-
+    private Health health;
     private bool isGrounded;
-
     public Transform groundCheck;
     public float groundCheckRadius = 0.25f;
     public LayerMask groundLayer;
@@ -19,13 +18,15 @@ public class Movimentacao : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponentInChildren<Animator>();
+        health = GetComponent<Health>();
     }
 
     void Update()
     {
         // Movimento apenas com setas
         moveInput = 0f;
-
+        if (health != null && health.IsKnocked())
+            return;
         if (Input.GetKey(KeyCode.LeftArrow))
             moveInput = -1f;
 
@@ -59,6 +60,9 @@ public class Movimentacao : MonoBehaviour
 
     void FixedUpdate()
     {
+
+        if (health.IsKnocked()) return; // impede sobrescrever o knockback
+        float move = Input.GetAxisRaw("Horizontal");
         rb.linearVelocity = new Vector2(moveInput * xVelocity, rb.linearVelocity.y);
         AutoFlip();
     }
@@ -71,6 +75,4 @@ public class Movimentacao : MonoBehaviour
         else
         transform.localScale = new Vector3(-1, 1, 1);
     }
-
-    
 }

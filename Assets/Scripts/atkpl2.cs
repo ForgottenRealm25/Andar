@@ -78,11 +78,12 @@ public class atkpl2 : MonoBehaviour
         animator.SetInteger("AttackIndex", 0);
     }
 
-    public HitboxPl2 Hitbox;
+    public Hitbox Hitbox;
 
     public void EnableHitbox()
     {
-        Hitbox.EnableHit();
+        bool isFinal = attackIndex == 3;
+        Hitbox.EnableHit(isFinal, transform);
     }
     public void DisableHitbox()
     {

@@ -5,13 +5,11 @@ public class MovimentacaoWASD : MonoBehaviour
     public float xVelocity = 5f;
     public float jumpForce = 12f;
     public Transform opponent;
-
+    private Health health;
     private Rigidbody2D rb;
     private Animator animator;
     private float moveInput;
-
     private bool isGrounded;
-
     public Transform groundCheck;
     public float groundCheckRadius = 0.25f;
     public LayerMask groundLayer;
@@ -20,6 +18,7 @@ public class MovimentacaoWASD : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponentInChildren<Animator>();
+        health = GetComponent<Health>();
     }
 
     void Update()
@@ -60,6 +59,8 @@ public class MovimentacaoWASD : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (health.IsKnocked()) return; // impede sobrescrever o knockback
+        float move = Input.GetAxisRaw("Horizontal");
         rb.linearVelocity = new Vector2(moveInput * xVelocity, rb.linearVelocity.y);
         AutoFlip();
     }

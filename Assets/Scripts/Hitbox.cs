@@ -3,8 +3,10 @@ using UnityEngine;
 public class Hitbox : MonoBehaviour
 {
     BoxCollider2D col;
-    public int damage = 10;
+    public float damage = 10;
     private bool hasHit;
+    private bool isFinalHit;
+    private Transform attacker;
     
 
      private void Awake()
@@ -12,9 +14,11 @@ public class Hitbox : MonoBehaviour
         col = GetComponent<BoxCollider2D>();
         col.enabled = false;
     }
-     public void EnableHit()
+     public void EnableHit(bool finalHit, Transform atk)
     {
         hasHit = false;
+        isFinalHit = finalHit;
+        attacker = atk;
         col.enabled = true;
     }
     public void DisableHit()
@@ -25,23 +29,23 @@ public class Hitbox : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Acertou algo!");
-        if(!col.enabled) return;
+        if (!col.enabled) return;
         if (hasHit) return;
 
-        if (other.CompareTag("Player2"))
+        // Pega o root de quem foi atingido
+        Transform otherRoot = other.transform.root;
+
+        // Se for o próprio dono da hitbox, ignora
+        if (otherRoot == transform.root) return;
+
+        Health health = otherRoot.GetComponent<Health>();
+
+        if (health != null)
         {
             hasHit = true;
-            
-            Health health = other.GetComponent<Health>();
-            if (health != null)
-            {
-                health.TakeDamage(damage);
-            }
+            health.TakeDamage(damage, isFinalHit, attacker);
         }
     }
-
-   
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
