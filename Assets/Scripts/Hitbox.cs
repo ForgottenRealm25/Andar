@@ -7,12 +7,15 @@ public class Hitbox : MonoBehaviour
     private bool hasHit;
     private bool isFinalHit;
     private Transform attacker;
+    public AudioClip hitSound;
+    private AudioSource audioSource;
     
 
      private void Awake()
     {
         col = GetComponent<BoxCollider2D>();
         col.enabled = false;
+        audioSource = GetComponent<AudioSource>();
     }
      public void EnableHit(bool finalHit, Transform atk)
     {
@@ -44,6 +47,9 @@ public class Hitbox : MonoBehaviour
         {
             hasHit = true;
             health.TakeDamage(damage, isFinalHit, attacker);
+
+            if (hitSound != null && audioSource != null)
+                audioSource.PlayOneShot(hitSound);
         }
     }
     private void OnDrawGizmos()

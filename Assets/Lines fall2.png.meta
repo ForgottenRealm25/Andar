@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 80298a37167d524429d8cca3d4bd2872
+guid: 2c8a6d1f1a361ff4ca2b4a681afff6c0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -182473319683313137
-    second: cleopatra icon1_0
+      213: 7848292292595081737
+    second: Lines fall2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cleopatra icon1_0
+      name: Lines fall2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 128
-        height: 128
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f023a478b79b77df0800000000000000
-      internalID: -182473319683313137
+      spriteID: 902e091124cbaec60800000000000000
+      internalID: 7848292292595081737
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cleopatra icon1_0: -182473319683313137
+      Lines fall2_0: 7848292292595081737
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

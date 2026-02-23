@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Health : MonoBehaviour
 {
-    public float maxHealth = 500;
+    public float maxHealth = 300;
     public float currentHealth;
     private SpriteRenderer sprite;
     public HealthBarUI healthBar;
@@ -95,6 +95,13 @@ public class Health : MonoBehaviour
     private void Die()
     {
         Debug.Log(gameObject.name + " morreu");
-        gameObject.SetActive(false);
+
+        if (GameOManager.Instance != null)
+        {
+            if (gameObject.name.Contains("Player1"))
+                GameOManager.Instance.EndGame("PLAYER 2");
+            else
+                GameOManager.Instance.EndGame("PLAYER 1");
+        }
     }
 }
