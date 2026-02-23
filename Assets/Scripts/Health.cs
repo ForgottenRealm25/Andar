@@ -39,12 +39,11 @@ public class Health : MonoBehaviour
 
         Debug.Log("Vida de " + gameObject.name + ": " + currentHealth);
 
-        // ⚡ Flash branco
         if (flashRoutine != null)
             StopCoroutine(flashRoutine);
 
         flashRoutine = StartCoroutine(FlashWhite());
-        // 💥 Knockback se for último hit
+        
         if (isFinalHit && attacker != null)
         {
             ApplyKnockback(attacker);
